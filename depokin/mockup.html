@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <meta name="theme-color" content="#173e32">
+  <meta name="description" content="Mockup Depokin, media lokal untuk cerita, kabar, dan kehidupan di Depok. Seluruh konten merupakan contoh desain.">
+  <title>depokin — Dekat kotanya, dekat ceritanya.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/mockup.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Langsung ke konten</a>
+  <div class="prototype-bar"><span><b>MOCKUP · KONTEN CONTOH</b><span class="preview-detail"> · Mobile first</span></span><button id="wire-toggle" aria-pressed="false">Lihat wireframe <span aria-hidden="true">↗</span></button></div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#beranda" class="brand" aria-label="Depokin, beranda">depokin<span class="brand-dot">.</span><span class="brand-tag">CERITA KOTA KITA</span></a>
+      <nav class="desktop-nav" aria-label="Navigasi utama"><a href="#beranda" data-nav="beranda">Beranda</a><a href="#jelajah" data-nav="jelajah">Jelajah Depok</a><a href="#video" data-nav="video">Video</a><a href="#tentang" data-nav="tentang">Tentang kami</a></nav>
+      <button class="search-trigger" aria-label="Cari berita Depok"><span data-icon="search"></span><span>Cari cerita</span></button>
+    </div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <footer class="site-footer"><div class="footer-inner"><a href="#beranda" class="brand">depokin<span class="brand-dot">.</span></a><p>Dekat kotanya. Dekat ceritanya.</p><span>Konsep media lokal Depok · Semua berita adalah contoh desain.</span><a href="#tentang">Tentang & prinsip redaksi <span aria-hidden="true">↗</span></a></div></footer>
+  <nav class="bottom-nav" aria-label="Navigasi mobile"><a href="#beranda" data-nav="beranda"><span data-icon="home"></span>Beranda</a><a href="#jelajah" data-nav="jelajah"><span data-icon="compass"></span>Jelajah</a><a href="#video" data-nav="video"><span data-icon="video"></span>Video</a><a href="#tentang" data-nav="tentang"><span data-icon="info"></span>Tentang</a></nav>
+  <dialog id="search-dialog" aria-labelledby="search-title"><div class="search-head"><h2 id="search-title">Lagi cari apa di Depok?</h2><button class="icon-button" id="close-search" aria-label="Tutup pencarian"><span data-icon="close"></span></button></div><form id="search-form"><label class="sr-only" for="search-input">Kata kunci berita</label><div class="search-field"><span data-icon="search"></span><input id="search-input" type="search" placeholder="Kuliner, Margonda, komunitas…" autocomplete="off"><button type="submit">Cari</button></div></form><p class="search-hint">Cari dalam koleksi berita contoh.</p><div id="search-results" aria-live="polite"></div></dialog>
+  <div class="toast" role="status" id="toast" hidden></div>
+  <script src="assets/mockup.js"></script>
+</body>
+</html>

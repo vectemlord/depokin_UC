@@ -1,0 +1,39 @@
+{
+  "note": "Foto arsip untuk ilustrasi mockup, bukan dokumentasi berita terkini. Ukuran diperkecil menjadi lebar 1200 px dan JPEG dikompresi; tampilan dapat dipotong dengan object-fit: cover.",
+  "images": [
+    {
+      "file": "lake.jpg",
+      "title": "Danau Kenanga Universitas Indonesia",
+      "author": "Alif Mikail",
+      "date": "2023-05-09",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Danau_Kenanga_Universitas_Indonesia.jpg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Danau_Kenanga_Universitas_Indonesia.jpg",
+      "changes": "Resized to 1200 px wide and JPEG compressed; display crop may vary."
+    },
+    {
+      "file": "margonda.jpg",
+      "title": "Jalan Margonda, Depok",
+      "author": "Mfikriansori",
+      "date": "2022-04-02",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Jalan_Margonda,_Depok.jpg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Jalan_Margonda%2C_Depok.jpg",
+      "changes": "Resized to 1200 px wide and JPEG compressed; display crop may vary."
+    },
+    {
+      "file": "station.jpg",
+      "title": "Concourse Stasiun Pondok Cina",
+      "author": "Irvan Cahyo N",
+      "date": "2026-05-02",
+      "license": "CC BY 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "sourcePage": "https://commons.wikimedia.org/wiki/File:Concourse_Stasiun_Pondok_Cina.jpg",
+      "sourceFile": "https://upload.wikimedia.org/wikipedia/commons/3/34/Concourse_Stasiun_Pondok_Cina.jpg",
+      "downloadedFrom": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/Concourse_Stasiun_Pondok_Cina.jpg/1280px-Concourse_Stasiun_Pondok_Cina.jpg",
+      "changes": "Resized to 1200 px wide and JPEG compressed; display crop may vary."
+    }
+  ]
+}
